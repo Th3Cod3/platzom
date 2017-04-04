@@ -1,0 +1,22 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "La traducion de una palabra al nuevo idioma platzom",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Th3Cod3/platzom"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "js",
+    "javascript",
+    "fundamentos"
+  ],
+  "author": "Yefri Gonzalez <th3-cod3-1230@hotmail.com> (Th3Cod3)",
+  "license": "MIT"
+}
