@@ -2,9 +2,10 @@
   "name": "platzom",
   "version": "0.1.0",
   "description": "La traducion de una palabra al nuevo idioma platzom",
-  "main": "index.js",
+  "main": "dist/src/platzom.js",
   "scripts": {
-    
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
     "fundamentos"
   ],
   "author": "Yefri Gonzalez <th3-cod3-1230@hotmail.com> (Th3Cod3)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
